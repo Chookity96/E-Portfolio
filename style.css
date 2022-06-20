@@ -208,7 +208,7 @@ nav,
 .header__para{
     line-height: 1.9;
     font-size: 24px;
-    max-width: 450px;
+    max-width: 480px;
 }
 
 #landing-page{
@@ -360,7 +360,7 @@ nav{
 .modal__half{
     position: relative;
     width: 50%;
-    padding: 40px 72px;
+    padding: 40px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -387,7 +387,7 @@ nav{
 
 .modal__languages{
     height: 100%;
-    max-height: 170px;
+    max-height: 200px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -395,9 +395,9 @@ nav{
 }
 
 .modal__language{
-    width: calc(100%/3);
+    width: calc(100%/4);
     position: relative;
-    padding: 0px 24px 16px 24px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -422,7 +422,7 @@ nav{
 
 .language__name{
     position: absolute;
-    bottom: 0px;
+    bottom: -5px;
     transform: scale(0);
     transition: all 300ms ease;
 }
@@ -536,6 +536,10 @@ nav{
 
 */
 
+.project{
+    margin-bottom: 32px;
+}
+
 .section__title{
     text-align: center;
     font-size: 48px;
@@ -544,13 +548,15 @@ nav{
 
 .project__img{
     width: 100%;
+    height: 100%;
     transition: all 600ms ease;
+    object-fit: contain;
 }
 
 .project__wrapper{
     position: relative;
     border-radius: 20px;
-    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.45);
+    box-shadow: 0 20px 12px 0 rgb(0, 0, 0, 0.45);
     overflow: hidden;
 }
 
@@ -577,7 +583,7 @@ nav{
     max-width: 550px;
     opacity: 0;
     transition: opacity 300ms, transform 450ms ease;
-
+    margin-right: 16px;
 }
 
 .project__wrapper--bg{
@@ -704,6 +710,12 @@ footer{
 }
 
 
+@media(max-width:1024px) {
+    .modal__language{
+        padding: 8px;
+    }
+}
+
 /* SMALL PHONES, TABLETS, LARGE SMART PHONES */
 @media(max-width: 768px){
 
@@ -738,12 +750,41 @@ footer{
         padding: 0px 56px 0px 56px;
     }
 
+    .modal__language{
+        padding: 24px;
+    }
+
     .modal__half{
         width: 100%;
     }
 
+
+
+
 }
 
+
+@media(max-width: 640px){
+
+    .modal__language{
+        padding: 8px;
+    }
+    .project__description{
+        left: 40px;
+    }
+
+    .project__description--title{
+        font-size: 32px;
+    }
+
+    .project__description--sub-title{
+        font-size: 14px;
+    }
+
+    .project__description--para{
+        font-size: 14px;
+    }
+}
 
 /* SMALL PHONES */
 @media(max-width: 480px){
