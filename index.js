@@ -29,6 +29,13 @@ function contact(event) {
                 "The email service is temporarily unavailable. Please contact me directly at my email: jegathees35@gmail.com"
             );
         })
+
+        const user_name = document.getElementById('user_name');
+        const user_email = document.getElementById('user_email');
+        const user_message = document.getElementById('user_message');
+        user_name.value = "";
+        user_email.value = "";
+        user_message.value = "";
 }
 
 
