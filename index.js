@@ -1,7 +1,6 @@
 
-tsParticles.load("tsparticles", "./assets/particles.json");
-// template_dtjo4q6
-// service_3m27o9f
+// template_uuw78pv
+// service_04og66w
 // lupi1Z4iT9aNPddYs
 let isModalOpen = false;
 let contrastToggle = false;
@@ -17,8 +16,8 @@ function contact(event) {
     
     emailjs
         .sendForm(
-            "service_3m27o9f",
-            "template_dtjo4q6",
+            "service_04og66w",
+            "template_uuw78pv",
             event.target,
             "lupi1Z4iT9aNPddYs"
         ).then(() => {

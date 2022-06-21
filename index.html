@@ -11,8 +11,7 @@
     <title>Jega's E-Portfolio</title>
     <link rel="icon" type="image/x-icon" href="/assets/jegalogo.ico">
     <link rel="import" href="../">
-    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.16.2/dist/tsparticles.min.js" integrity="sha256-2Sly/Hf9UP7YBu6LEPpn/6rxMZR5EeGq89mBa4G5+YA=" crossorigin="anonymous"></script>
-    <script src="./index.js"></script>
+    
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
     </script>
     <script type="text/javascript">
@@ -51,7 +50,7 @@
                 <h1 class="title">Hey</h1>
                 <h1 class="title orange">I'm Jega</h1>
                 <p class="header__para">
-                    I'm a <b class="orange">Freelance Frontend Software Engineer</b> and I eat, sleep and breathe React.
+                    I'm a <b class="orange">Freelance Frontend Software Engineer</b> and I love making cool and pretty things.
                     <br>
                     Here's a bit more <b class="orange click" onclick="toggleModal()">about me.</b>
                 </p>
@@ -62,7 +61,7 @@
                     <a href="https://github.com/Chookity96" class="social__link click" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
-                    <a href="#" class="social__link click" target="_blank">
+                    <a href="./assets/Jega_Resume.pdf" class="social__link click" target="_blank">
                         <i class="fas fa-file-pdf"></i>
                     </a>
                 </div>
@@ -88,7 +87,7 @@
                         engineer</b> with a strong passion for developing websites with great <b class="orange">user
                         experiences.</b>
                     <br>
-                    I have been working with multiple startups to create <b class="orange">beautiful, responsive, multi-platform and SEO friendly websites</b> to promote their business and grow online.
+                    I have been working with multiple startups to create <b class="orange">beautiful, responsive, multi-platform and SEO friendly websites</b> to promote their businesses and grow online.
                 </p>
                 <div class="modal__languages">
                     <figure class="modal__language">
@@ -133,7 +132,7 @@
                 <h4 class="modal__sub-title modal__sub-title--contact">
                     I'm currently open to new opportunities.
                 </h4>
-                <form id="contact__form" onsubmit="">
+                <form id="contact__form" onsubmit="contact(event)">
                     <div class="form__item">
                         <label class="form__item--label">Name</label>
                         <input type="text" name="user_name" class="input" required>
@@ -296,20 +295,20 @@
     <footer>
         <div class="container">
             <div class="row footer__row">
-                <figure>
+                <a href="#landing-page">
                     <img class="footer__logo" src="./assets/jlogo.svg" alt="">
-                </figure>
+                </a>
                 <div class="footer__social--list">
                     <a href="https://github.com/Chookity96" target="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">GitHub</a>
                     <a href="https://www.linkedin.com/in/jega-s-340830224/" target="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">LinkedIn</a>
                     <a href="#" onclick="toggleModal()" class="footer__social--link link__hover-effect link__hover-effect--white">Contact</a>
-                    <a href="./assets/David Bragg Resume.pdf" target="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">Resume</a>
+                    <a href="./assets/Jega_Resume.pdf" target="_blank" class="footer__social--link link__hover-effect link__hover-effect--white">Resume</a>
                 </div>
                 <div class="footer__copyright">Copyright &copy; 2022 Jega S</div>
             </div>
         </div>
     </footer>
-
+    <script src="./index.js"></script>
 </body>
 
 </html>

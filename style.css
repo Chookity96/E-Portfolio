@@ -110,6 +110,10 @@ input:focus, textarea:focus{
     color: #1c4442 !important;
 }
 
+.dark-theme .orange {
+    color: #85ccc9 !important;
+}
+
 .link__hover-effect{
     position: relative;
     
