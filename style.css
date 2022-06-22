@@ -217,7 +217,7 @@ nav,
 
 #landing-page{
     min-height: 100vh;
-    /*background-image: linear-gradient(180deg,#fbfcff,#85ccc9);*/
+    background-image: linear-gradient(180deg,#fbfcff,#85ccc9);
 }
 
 .dark-theme #landing-page {
