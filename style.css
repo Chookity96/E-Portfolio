@@ -250,7 +250,7 @@ nav,
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to bottom, black 0%, rgba(0, 0, 0, 0.5) 80%, transparent 100%);
+  background: linear-gradient(to bottom, black 0%,  rgba(0, 0, 0, 0.3) 100%);
 }
 
 @keyframes animate-bg {
@@ -273,14 +273,19 @@ nav,
   background-color: #06096c;
   color: white;
   padding: 6px;
-  width: 32px;
-  height: 32px;
-  font-size: 14px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
   margin-right: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+}
+
+.dark-theme .social__link{
+  background-color: #33d8e1;
+  color: black;
 }
 
 .mail__btn {
@@ -362,7 +367,8 @@ nav {
 .nav__link--anchor {
   color: #000000;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 800;
+  letter-spacing: 0.05em;
 }
 
 .fa-adjust {
