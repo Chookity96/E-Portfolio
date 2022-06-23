@@ -131,7 +131,7 @@ textarea:focus {
 }
 
 .link__hover-effect--black:after {
-  background-color: #242424;
+  background-color: #000000;
 }
 
 .link__hover-effect--white:after {
