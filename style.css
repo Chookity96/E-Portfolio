@@ -231,6 +231,18 @@ nav,
   animation: animate-bg 15s linear infinite;
 }
 
+.with-eight {
+    text-shadow:
+        0.05em 0 black,
+        0 0.05em black,
+        -0.05em 0 black,
+        0 -0.05em black,
+        -0.05em -0.05em black,
+        -0.05em 0.05em black,
+        0.05em -0.05em black,
+        0.05em 0.05em black;
+}
+
 .dark-theme .background::after {
   content: '';
   position: absolute;
@@ -348,7 +360,7 @@ nav {
 }
 
 .nav__link--anchor {
-  color: #242424;
+  color: #000000;
   font-size: 20px;
   font-weight: 700;
 }
