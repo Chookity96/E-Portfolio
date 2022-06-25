@@ -224,10 +224,11 @@ nav,
   height: 100%;
   width: 100%;
   z-index: 0;
-  background-image: url('./assets/canvas-bg.jpg');
+  background-image: url('./assets-v1.3/canvas-bg.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  opacity: 0.8;
   animation: animate-bg 15s linear infinite;
 }
 
