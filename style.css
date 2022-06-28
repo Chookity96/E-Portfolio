@@ -575,9 +575,12 @@ nav {
   }
 }
 
-#tech-stack{
+/*
 
-}
+    TECH STACK
+
+*/
+
 .css__avatar{
   display: flex;
   justify-content: center;
@@ -615,6 +618,7 @@ nav {
 #tech-stack > .container {
   padding-bottom: 0px;
 }
+
 /*
 
     PROJECTS 
@@ -745,6 +749,7 @@ footer {
 .shape {
   position: fixed;
   z-index: 0;
+  opacity: 0.4;
 }
 
 .shape--0 {
@@ -909,11 +914,17 @@ footer {
   .shape--4 {
     top: 20vh;
     left: 50vw;
+    visibility: hidden;
   }
   
   .shape--5 {
     top: 50vh;
     left: 90vw;
+    visibility: hidden;
+  }
+
+  .shape--3{
+    visibility: hidden;
   }
 
   .override{
